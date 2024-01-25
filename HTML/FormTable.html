@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <style>
+        h2 {color:red;}
+        table {font-size:large; font-weight: bold;}
+      </style>
+</head>
+  
+<body bgcolor="green">
+      
+    <h2>Student Form</h2> 
+  
+    <table border="0" cellspacing="0" cellpadding="30px"> 
+        <form > 
+            <tr> 
+                <td> <label for="fname"> First Name:</label></td> 
+                <td><input type="text" id="fname" />(Maximum 50 Character Allowed)</td> 
+            </tr> 
+            <tr> 
+                <td> <label for="lname"> Last Name: </label></td> 
+                <td><input type="text" id="lname" />(Maximum 50 Character Allowed)</td> 
+            </tr> 
+            <tr> 
+                <td><label for="email">Email ID: </label></td> 
+                <td><input type="email" id="email" /> </td> 
+            </tr> 
+            <tr> 
+                <td><label for="monum"> Mobile Number:</label></td> 
+                <td><input type="tel" id="monum" minlength="10" maxlength="10" /> (Maximum 10 Digit Allowed) </td> 
+            </tr> 
+            <tr> 
+                <td><label for="gender"> Gender: </label></td> 
+                <td><input type="radio" id="male" name="gender" value="male">
+                    <label for="male"> Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female"> Female</label>
+                </td> 
+            </tr> 
+            <tr>
+            <td><label for="birthday">Birthday:</label></td>
+            <td><input type="number" name="day" min="1" max="31" />
+                <input type="number" name="month" min="1" max="12" />
+                <input type="number" name="year" min="1900" max="9999" /></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td> 
+                <td><textarea rows="5" cols="10"></textarea> </td>
+            </tr>
+            <tr> 
+                <td><label for="course"> Course: </label></td> 
+                <td><input type="checkbox" id="btech" name="course" value="btech">
+                    <label for="btech"> B. TECH.:</label>
+                    <input type="checkbox" id="mtech" name="course" value="mtech">
+                    <label for="mtech"> M.Tech:</label>
+                    <input type="checkbox" id="mba" name="course" value="mba">
+                    <label for="mba"> MBA:</label>
+                </td> 
+            </tr>
+            <tr>            
+                <td><label for="branch"> Branch: </label> </td>
+                <td><select name="branch" id="branch">
+                        <option value="cse">CSE:</option>
+                        <option value="broadway">Broadway:</option>
+                        <option value="ittraining">IT Training</option></select>
+                </td>
+            </tr>
+            <tr>
+                <td> <button type="submit" value="Submit">Submit</button> </td>
+                <td><button type="reset" value="Reset" >Reset</button></td>
+            </tr>
+
+        </form> 
+    </table> 
+    
+</body>
+</html>

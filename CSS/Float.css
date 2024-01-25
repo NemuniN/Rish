@@ -1,0 +1,78 @@
+.box1
+{
+    width:300px;
+    height:200px;
+    background: yellow;
+    float:left;
+}
+.box2
+{
+    width:300px;
+    height: 200px;
+    background: red;
+    height:330px;
+    float:right;
+}
+.box3
+{
+    width:300px;
+    height:200px;
+    background: yellowgreen;
+    float:left; 
+    clear:left;
+}
+.box4
+{
+    width:300px;
+    height:200px;
+    background: rgb(80, 73, 73);
+    float:left;
+    clear:left;
+}
+.box5
+{
+    width:300px;
+    height:200px;
+    background: rgb(99, 73, 173);
+    float:right ;
+}
+.box6
+{
+    width:300px;
+    height: 200px;
+    background: rgb(210, 193, 73);
+    float: right;
+    clear:right;
+}
+.box7
+{
+    width:300px;
+    height: 200px;
+    background: rgb(140, 113, 13);
+    float: left; 
+    clear: left ;
+}
+.box6
+{
+    width:300px;
+    height:200px;
+    background: rgb(110, 173, 73);
+    float:right ;
+}
+.box7
+{
+    width:300px;
+    height:200px;
+    background: rgb(110, 173, 73);
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
